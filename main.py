@@ -54,7 +54,7 @@ class CoolingConfig:
     cooling_delta_f: float = 4.5          # Temperature reduction (°F)
     cooling_hours: int = 4                # Hours of active cooling per day
     cost_labor: float = 200.0             # $/acre deployment
-    cost_materials: float = 180.0         # $/acre materials
+    cost_materials: float = 18.0          # $/acre materials
 
     @property
     def cost_per_acre(self) -> float:

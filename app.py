@@ -341,7 +341,7 @@ with st.sidebar:
         "Base cost ($/acre)", min_value=0, max_value=2000, value=200, step=10,
     )
     cost_materials = st.number_input(
-        "Materials cost ($/acre)", min_value=0, max_value=2000, value=180, step=10,
+        "Materials cost ($/acre)", min_value=0, max_value=2000, value=18, step=10,
     )
 
     st.divider()
