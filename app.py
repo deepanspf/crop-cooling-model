@@ -311,23 +311,20 @@ with st.sidebar:
     )
 
     st.divider()
-    st.header("Heat Event")
-    st.caption("Set the peak temperature for each day of the heatwave.")
+    st.header("Heat Event", help="Sonoma heatwaves typically peak at 100-110°F. "
+              "Overnight lows are usually 50-65°F; higher lows (70°F+) prevent vine recovery. "
+              "Damage compounds across consecutive days.")
 
     col1, col2, col3, col4, col5 = st.columns(5)
     day_temps = [
-        col1.number_input("Day 1 °F", min_value=85, max_value=125, value=101,
-                          help="Heatwave ramp-up. Sonoma typically hits 100-110°F during extreme events."),
+        col1.number_input("Day 1 °F", min_value=85, max_value=125, value=101),
         col2.number_input("Day 2 °F", min_value=85, max_value=125, value=103),
-        col3.number_input("Day 3 °F", min_value=85, max_value=125, value=107,
-                          help="Peak day. 105-110°F is severe for Sonoma; 115°F+ is rare but has occurred."),
+        col3.number_input("Day 3 °F", min_value=85, max_value=125, value=107),
         col4.number_input("Day 4 °F", min_value=85, max_value=125, value=105),
-        col5.number_input("Day 5 °F", min_value=85, max_value=125, value=100,
-                          help="Heatwave tailing off. Damage still compounds from prior days."),
+        col5.number_input("Day 5 °F", min_value=85, max_value=125, value=100),
     ]
     overnight_low = st.number_input(
         "Overnight low (°F)", min_value=45, max_value=85, value=65,
-        help="Sonoma summer lows: typically 50-65°F. Higher lows (70°F+) prevent overnight vine recovery.",
     )
 
     st.divider()
@@ -347,14 +344,12 @@ with st.sidebar:
     num_days = len(day_temps)
     total_spray_hours = cooling_hours * num_days
     materials_per_hour = st.number_input(
-        "Materials cost ($/acre/spray-hr)",
+        "Materials ($/acre/spray-hr)",
         min_value=0.00, max_value=50.00, value=0.90, step=0.10,
         format="%.2f",
-        help=f"Default: $0.90/hr ($18 for 20 hrs). Currently {total_spray_hours} total spray-hrs.",
+        help=f"Cost per hour of spraying per acre. {cooling_hours} hrs/day x {num_days} days = {total_spray_hours} total spray-hrs.",
     )
     cost_materials = materials_per_hour * total_spray_hours
-    st.caption(f"Total materials: ${cost_materials:,.2f}/acre "
-               f"({cooling_hours} hrs/day x {num_days} days x ${materials_per_hour:.2f}/hr)")
 
     st.divider()
     st.header("Scale")
