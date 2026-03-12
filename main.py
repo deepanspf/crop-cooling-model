@@ -111,21 +111,21 @@ def degree_hours(temps: list[tuple[int, float]], threshold: float) -> float:
 #   Greer & Weedon (2013) PMC3848316
 #     Semillon, 14-day heat: 30% berry damage, 55% ripening rate reduction
 #   Gambetta et al. (2021) PMC7819898
-#     Australia: 5-15% annual sunburn, up to 30% must yield loss
+#     Australia: 5-15% annual sunburn, up to 30% must yield loss (multiple sources)
 #     Grade downgrade (A→C/D): ~50% value loss
 #     Berry surface temp: 12-15°C above air temp in direct sun
 #   Greer (2017)
 #     4 days at 40°C → 70% photosynthesis reduction, 12-day recovery
-#   Reshef et al. (2023) PMC10083509
+#   Muller et al. (2023) PMC10083509
 #     Each 1 min longer exposure → 3.34× higher damage probability
 #     LT50 at 30 min = 49.9°C; at 90 min = 47.1°C
-#   Gonzalez Antivilo et al. (2022) PMC9003205
+#   de Rosas et al. (2022) PMC9003205
 #     Pinot Noir: 13-16% anthocyanin reduction at just +1.5-2°C
 #     Merlot: 0% effect; Pinot classified as "low plasticity"
-#   Lecourieux et al. (2017) PMC4955140
+#   Rienth et al. (2016) PMC4955140
 #     Malate at 30/25°C: 75% respired post-veraison vs 50% at 22/12°C
 #   Sweetman et al. (2014) PMC4203137
-#     +3.4°C day heating over 11 days → 26% malate reduction
+#     +4-6°C day heating over 11 days → 26% malate reduction
 #
 
 @dataclass
@@ -549,7 +549,7 @@ def print_sources():
     PRICING
       USDA NASS California Grape Crush Report 2023, District 3
       Sonoma Pinot Noir weighted average: $3,843/ton
-      Range: $500 - $17,062/ton (quality-dependent)
+      Range: $250 - $60,000/ton (2023, quality-dependent)
 
     YIELD
       UC Davis Cost & Return Study, Russian River Valley
@@ -565,14 +565,14 @@ def print_sources():
         Semillon, 14-day heat: 30% berry damage, 55% ripening reduction
 
       Gambetta et al. (2021) PMC7819898
-        5-15% annual sunburn (AU); up to 30% must yield loss
+        5-15% annual sunburn (AU); up to 30% must yield loss (multiple sources)
         Grade downgrade (A→C/D) = ~50% value loss
         Berry surface: 12-15°C above air temp in sun
 
       Greer (2017): 4 days at 40°C → 70% photosynthesis reduction,
         12-day recovery (basis for compounding model)
 
-      Reshef et al. (2023) PMC10083509
+      Muller et al. (2023) PMC10083509
         LT50: 49.9°C at 30 min, 47.1°C at 90 min
         Each +1 min exposure = 3.34× damage probability
 

@@ -16,7 +16,7 @@ we cite it. Where we interpolate or make judgment calls, we flag it explicitly.
 - **Source:** USDA NASS California Grape Crush Report 2023, District 3 (Sonoma & Marin Counties), Pinot Noir weighted average.
 - **Link:** https://www.nass.usda.gov/Statistics_by_State/California/Publications/Specialty_and_Other_Releases/Grapes/Crush/Reports/index.php
 - **Supporting:** Vintroux analysis of 2023-2024 crush data (https://vineyardandwinerysales.com/blog/napa-valley-and-sonoma-county-wine-grape-prices-2024/)
-- **Range in data:** $500 - $17,062/ton in 2022 (quality-dependent). Premium Russian River Valley fruit commands 10-30%+ above county average.
+- **Range in data:** $250 - $60,000/ton in 2023 (quality-dependent). Premium Russian River Valley fruit commands 10-30%+ above county average.
 - **Confidence:** HIGH. This is official USDA data.
 
 ### Yield: 4.0 tons/acre
@@ -82,8 +82,8 @@ Partial Shading Under Two Irrigation Amounts"
 - **Reference data point:** 24% cluster damage at ~85 cumulative DH above 100°F (4-day, Cab Sauv).
 - **Physical maximum:** 50%. Not every berry faces the sun; interior and shaded berries are protected.
 - **Supporting evidence for the 100°F/50°C berry surface link:**
-  - Gambetta et al. (2021), PMC7819898: Berry surface temps run 12-15°C above air temperature in direct sun.
-  - Reshef et al. (2023), PMC10083509: LT50 (temperature killing 50% of berries at 30 min exposure) = 49.9°C. At 90 min = 47.1°C. Each additional minute of exposure increases damage probability 3.34x.
+  - Gambetta et al. (2021), PMC7819898: Berry surface temps run 12-15°C above air temperature in direct sun (citing Smart & Sinclair, 1976).
+  - Muller et al. (2023), PMC10083509: LT50 (temperature killing 50% of berries at 30 min exposure) = 49.9°C. At 90 min = 47.1°C. Each additional minute of exposure increases damage probability 3.34x.
 - **Confidence:** HIGH. Direct field measurement, strong mechanistic basis.
 
 ### 3b. Berry Shrivel (Dehydration)
@@ -108,7 +108,7 @@ Partial Shading Under Two Irrigation Amounts"
 - **Physical maximum:** 65%.
 - **Supporting evidence:**
   - Martinez-Luscher et al. (2020), PMC7683524: 30-38% anthocyanin degradation in exposed Cab Sauv vs 20-23% in shaded.
-  - Gonzalez Antivilo et al. (2022), PMC9003205: Pinot Noir showed 13.3-16.4% anthocyanin reduction with just +1.5-2°C warming. Merlot showed 0%.
+  - de Rosas et al. (2022), PMC9003205: Pinot Noir showed 13.3-16.4% anthocyanin reduction with just +1.5-2°C warming. Merlot showed 0%.
   - Progressive Crop Consultant (2025): Anthocyanin synthesis impaired above 95°F, degradation increases.
 - **Why it matters for Pinot Noir:** Anthocyanin/color IS the varietal identity. Pinot has lower total anthocyanin than Cab Sauv, and "color where grapes are sunburned is not extractable" (Good Fruit Grower). Any color loss hits Pinot disproportionately.
 - **Confidence:** HIGH for the reference data. The 34% Cab Sauv figure is directly measured; the extrapolation to other conditions via the saturation curve adds moderate uncertainty.
@@ -120,8 +120,8 @@ Partial Shading Under Two Irrigation Amounts"
 - **Reference data point:** ~22% loss at ~239 DH above 95°F (4-day equivalent).
 - **Physical maximum:** 55%.
 - **How the reference was derived:** This is a composite estimate from multiple studies:
-  - Lecourieux et al. (2017), PMC4955140: In controlled environment, malate at hot conditions (30/25°C day/night) was 85 uEq vs 230 uEq at cool conditions (22/12°C) at ripening — 63% less. But this compares hot vs. cool over the full ripening period, not a 4-day event vs. baseline.
-  - Sweetman et al. (2014), PMC4203137: Day heating (+3.4°C above control) over 11 days produced 26% malate reduction (85.8 to 63.3 umol/berry). Scaling to 4 days at more extreme heating gives ~20-25%.
+  - Rienth et al. (2016), PMC4955140: In controlled environment, malate at hot conditions (30/25°C day/night) was 85 uEq vs 230 uEq at cool conditions (22/12°C) at ripening — 63% less. But this compares hot vs. cool over the full ripening period, not a 4-day event vs. baseline.
+  - Sweetman et al. (2014), PMC4203137: Day heating (+4-6°C above control) over 11 days produced ~25% malate reduction (85.8 to 63.3 umol/berry). Scaling to 4 days at more extreme heating gives ~20-25%.
   - Frontiers in Plant Physiology (2025): Pinot Noir bunch heating study confirmed "hastened reduction in malic acid concentration" with +10°C heating for 7 days.
   - Progressive Crop Consultant (2025): "Malate accumulation is optimal between 68 to 77°F and significantly degraded above 105°F."
 - **Limitation:** No single study measures exactly "22% malate loss in 4 days at 105°F." The figure is inferred from multiple data points at different conditions.
@@ -136,7 +136,7 @@ vulnerability compared to Cabernet Sauvignon (the variety in our primary calibra
 
 ### Evidence
 
-**Gonzalez Antivilo et al. (2022), PMC9003205:**
+**de Rosas et al. (2022), PMC9003205:**
 "High Temperature Alters Anthocyanin Concentration and Composition in Grape Berries of
 Malbec, Merlot, and Pinot Noir in a Cultivar-Dependent Manner"
 - Field study comparing three varieties under identical +1.5-2°C heating.
@@ -226,7 +226,7 @@ yield_loss = sunburn × 0.35 + shrivel × 0.70
 
 - Martinez-Luscher et al. (2020): 24% cluster damage, of which "more than one-third was categorized as severe."
 - Greer & Weedon (2013): "Yield was not affected" despite 30% berry damage (Semillon).
-- Gambetta et al. (2021): Sunburn can cause "must yield decrease of up to 30%."
+- Gambetta et al. (2021): Grade downgrade from A to C/D = ~50% value loss.
 
 ### Confidence: MEDIUM
 
@@ -255,7 +255,7 @@ wineries assess grape quality when making purchasing decisions.
 
 - **Grape purchase contracts** (Extension.org): Include bonuses for narrow Brix/pH ranges and penalties for substandard fruit. Wineries can reject or renegotiate price for defects including raisining and visual damage.
 - **Michael David Winery example:** $25/ton bonus per 0.5 Brix increment; 15% premium for quality growers.
-- **Sonoma County pricing range:** $500 - $17,062/ton for the same variety in the same county, demonstrating massive quality-based pricing spread.
+- **Sonoma County pricing range:** $250 - $60,000/ton (2023) for the same variety in the same county, demonstrating massive quality-based pricing spread.
 - **Australian grading (Gambetta et al. 2021):** Grade downgrade from A to C/D = ~50% value loss. This provides a ceiling reference.
 - **Model output check:** The model produces ~31% quality discount for uncooled 5-day heat-stressed Pinot Noir. This means grapes that would normally sell at $3,843/ton sell at ~$2,650/ton. This sits between "lose your premium" (10-30% above average) and "total downgrade" (50% loss) — consistent with severe but not catastrophic heat damage.
 
@@ -295,7 +295,7 @@ Transparency requires noting what's excluded:
 - **Irrigation effects:** The Martinez-Luscher study showed irrigation level (40% vs 80% ET) had "mild effects" on berry temperature and dehydration. Our model doesn't vary irrigation.
 - **Vine age and health:** Older or stressed vines may be more vulnerable. The calibration study used established, commercially managed vines.
 - **Timing within season:** Heat stress at bloom vs veraison vs ripening has very different effects. We model a generic "during growing season" event.
-- **Wind:** Reshef et al. (2023) found wind significantly reduces sunburn. Our model assumes calm conditions (conservative for the cooling benefit).
+- **Wind:** Muller et al. (2023) found wind significantly reduces sunburn. Our model assumes calm conditions (conservative for the cooling benefit).
 - **Light reduction:** Shade nets in the calibration study reduced both temperature AND light (60% PAR reduction). Our cooling technology reduces temperature only, not light. This means our sunburn estimates may be slightly conservative (light also drives sunburn independently of temperature).
 - **Nighttime temperatures:** The model uses overnight lows but doesn't explicitly model night recovery. Sonoma's diurnal range (often 30-40°F) provides better overnight recovery than inland regions.
 - **Long-term vine damage:** Repeated heatwaves across seasons could cause cumulative vine decline. This model is single-event only.
@@ -313,19 +313,17 @@ Transparency requires noting what's excluded:
 
 4. **Greer DH (2017).** "Responses of biomass accumulation, photosynthesis and the net carbon budget to high canopy temperatures of Vitis vinifera L. cv. Semillon vines grown in field conditions." *Environmental and Experimental Botany.* https://www.sciencedirect.com/science/article/abs/pii/S0098847217300540
 
-5. **Reshef N, et al. (2023).** "Wind speed, sun exposure and water status alter sunburn susceptibility of grape berries." *Frontiers in Plant Science.* PMC10083509. https://pmc.ncbi.nlm.nih.gov/articles/PMC10083509/
+5. **Muller K, Keller M, Stoll M, Friedel M (2023).** "Wind speed, sun exposure and water status alter sunburn susceptibility of grape berries." *Frontiers in Plant Science.* PMC10083509. https://pmc.ncbi.nlm.nih.gov/articles/PMC10083509/
 
-6. **Gonzalez Antivilo F, et al. (2022).** "High Temperature Alters Anthocyanin Concentration and Composition in Grape Berries of Malbec, Merlot, and Pinot Noir in a Cultivar-Dependent Manner." *Plants.* PMC9003205. https://pmc.ncbi.nlm.nih.gov/articles/PMC9003205/
+6. **de Rosas I, Deis L, Baldo Y, Cavagnaro JB, Cavagnaro PF (2022).** "High Temperature Alters Anthocyanin Concentration and Composition in Grape Berries of Malbec, Merlot, and Pinot Noir in a Cultivar-Dependent Manner." *Plants.* PMC9003205. https://pmc.ncbi.nlm.nih.gov/articles/PMC9003205/
 
-7. **Lecourieux F, et al. (2017).** "Temperature desynchronizes sugar and organic acid metabolism in ripening grapevine fruits and remodels their transcriptome." *BMC Plant Biology.* PMC4955140. https://pmc.ncbi.nlm.nih.gov/articles/PMC4955140/
+7. **Rienth M, Torregrosa L, Sarah G, Ardisson M, Brillouet JM, Romieu C (2016).** "Temperature desynchronizes sugar and organic acid metabolism in ripening grapevine fruits and remodels their transcriptome." *BMC Plant Biology.* PMC4955140. https://pmc.ncbi.nlm.nih.gov/articles/PMC4955140/
 
 8. **Sweetman C, et al. (2014).** "Metabolic effects of elevated temperature on organic acid degradation in ripening Vitis vinifera fruit." *Journal of Experimental Botany.* PMC4203137. https://pmc.ncbi.nlm.nih.gov/articles/PMC4203137/
 
 9. **Luo HB, et al. (2011).** "Photosynthetic Responses to Heat Treatments at Different Temperatures and following Recovery in Grapevine (Vitis amurensis L.) Leaves." *PLOS ONE.* PMC3162573. https://pmc.ncbi.nlm.nih.gov/articles/PMC3162573/
 
-10. **Rienth M, et al. (2016).** "Temperature desynchronizes sugar and organic acid metabolism in ripening grapevine fruits." *BMC Plant Biology.* PMC4955140.
-
-11. **USDA NASS (2024).** California Grape Crush Report 2023, Final. District 3 (Sonoma/Marin). https://www.nass.usda.gov/Statistics_by_State/California/Publications/Specialty_and_Other_Releases/Grapes/Crush/Reports/index.php
+10. **USDA NASS (2024).** California Grape Crush Report 2023, Final. District 3 (Sonoma/Marin). https://www.nass.usda.gov/Statistics_by_State/California/Publications/Specialty_and_Other_Releases/Grapes/Crush/Reports/index.php
 
 12. **UC Davis (2017).** Cost and Return Study: Wine Grapes, Sonoma County, Russian River Valley. https://coststudyfiles.ucdavis.edu/
 

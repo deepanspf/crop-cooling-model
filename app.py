@@ -512,12 +512,12 @@ with tab_sources:
 | Study | Key Finding | Link |
 |:------|:------------|:-----|
 | Greer & Weedon (2013) | Semillon, 14-day heat: 30% berry damage, 55% ripening reduction | [PMC3848316](https://pmc.ncbi.nlm.nih.gov/articles/PMC3848316/) |
-| Gambetta et al. (2021) | Sunburn review: 5-15% annual impact (AU), up to 30% must loss. Grade downgrade = ~50% value loss. Berry surface 12-15°C above air. | [PMC7819898](https://pmc.ncbi.nlm.nih.gov/articles/PMC7819898/) |
+| Gambetta et al. (2021) | Sunburn review: 5-15% annual impact (AU), Grade downgrade = ~50% value loss. Berry surface 12-15°C above air. | [PMC7819898](https://pmc.ncbi.nlm.nih.gov/articles/PMC7819898/) |
 | Greer (2017) | 4 days at 40°C → 70% photosynthesis reduction, 12-day recovery | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0098847217300540) |
-| Reshef et al. (2023) | LT50: 49.9°C at 30 min, 47.1°C at 90 min. Each +1 min = 3.34x damage probability | [PMC10083509](https://pmc.ncbi.nlm.nih.gov/articles/PMC10083509/) |
-| Gonzalez Antivilo et al. (2022) | Pinot Noir: 13-16% anthocyanin reduction at just +1.5-2°C. Merlot: 0%. Pinot = "low plasticity" | [PMC9003205](https://pmc.ncbi.nlm.nih.gov/articles/PMC9003205/) |
-| Lecourieux et al. (2017) | Malate at 30/25°C: 75% respired post-veraison vs 50% at 22/12°C | [PMC4955140](https://pmc.ncbi.nlm.nih.gov/articles/PMC4955140/) |
-| Sweetman et al. (2014) | +3.4°C day heating over 11 days → 26% malate reduction | [PMC4203137](https://pmc.ncbi.nlm.nih.gov/articles/PMC4203137/) |
+| Muller et al. (2023) | LT50: 49.9°C at 30 min, 47.1°C at 90 min. Each +1 min = 3.34x damage probability | [PMC10083509](https://pmc.ncbi.nlm.nih.gov/articles/PMC10083509/) |
+| de Rosas et al. (2022) | Pinot Noir: 13-16% anthocyanin reduction at just +1.5-2°C. Merlot: 0%. Pinot = "low plasticity" | [PMC9003205](https://pmc.ncbi.nlm.nih.gov/articles/PMC9003205/) |
+| Rienth et al. (2016) | Malate at 30/25°C: 75% respired post-veraison vs 50% at 22/12°C | [PMC4955140](https://pmc.ncbi.nlm.nih.gov/articles/PMC4955140/) |
+| Sweetman et al. (2014) | +4-6°C day heating over 11 days → 25% malate reduction (85.8 → 63.3 μmol/berry) | [PMC4203137](https://pmc.ncbi.nlm.nih.gov/articles/PMC4203137/) |
 | Luo et al. (2011) | Repeated heat: 2nd exposure → sharper Rubisco decline, slower recovery | [PMC3162573](https://pmc.ncbi.nlm.nih.gov/articles/PMC3162573/) |
 
 #### Economic Data
@@ -525,7 +525,7 @@ with tab_sources:
 | Data Point | Value | Source |
 |:-----------|:------|:-------|
 | Sonoma Pinot Noir price/ton | $3,843 (2023 avg) | USDA NASS Grape Crush Report 2023, District 3 |
-| Price range | \$500 - \$17,062/ton | Same |
+| Price range | \$250 - \$60,000/ton (2023) | Same |
 | Yield assumption | 4.0 tons/acre | UC Davis Cost Study, Russian River Valley |
     """)
 
