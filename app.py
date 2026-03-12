@@ -302,7 +302,7 @@ with st.sidebar:
     price_per_ton = st.slider(
         "Price per ton ($)",
         min_value=500, max_value=15000, value=3843, step=50,
-        help="Sonoma Pinot Noir avg: $3,843 (2023 USDA). Range: $500-$17k.",
+        help="Sonoma Pinot Noir avg: $3,843 (2023 USDA). Range: $250-$60k.",
     )
     yield_per_acre = st.number_input(
         "Yield (tons/acre)",
