@@ -332,7 +332,7 @@ with st.sidebar:
 
     cooling_delta = st.slider(
         "Cooling effect (°F reduction)",
-        min_value=1.0, max_value=8.0, value=4.5, step=0.5,
+        min_value=1.0, max_value=10.0, value=4.5, step=0.5,
     )
     cooling_hours = st.select_slider(
         "Cooling hours per day",
