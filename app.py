@@ -355,7 +355,7 @@ with st.sidebar:
     st.header("Scale")
 
     acreage = st.number_input(
-        "Acreage", min_value=1, max_value=10000, value=100, step=10,
+        "Acreage", min_value=1, max_value=5000000, value=100, step=10,
     )
 
 
