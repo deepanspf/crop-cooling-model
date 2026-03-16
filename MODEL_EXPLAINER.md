@@ -25,7 +25,7 @@ Anthocyanins are the pigments in grape skin that make red wine red. They're synt
 1. **Synthesis slows down** — the enzymes that build anthocyanins work poorly above 95F
 2. **Degradation speeds up** — existing anthocyanins break down faster at high temperatures
 
-The net result: the grapes lose color. For Pinot Noir specifically, this is devastating because Pinot already has less anthocyanin than thicker-skinned varieties like Cab Sauv or Syrah. There's less buffer. The Gonzalez Antivilo study showed Pinot Noir loses 13-16% of its anthocyanin with just a 1.5-2C temperature increase, while Merlot lost 0%.
+The net result: the grapes lose color. For Pinot Noir specifically, this is devastating because Pinot already has less anthocyanin than thicker-skinned varieties like Cab Sauv or Syrah. There's less buffer. The de Rosas et al. (2022) study showed Pinot Noir loses 13-16% of its anthocyanin with just a 1.5-2C temperature increase, while Merlot lost 0%.
 
 Crucially, Pinot Noir was classified as having "low plasticity" — it can't compensate by shifting to different types of anthocyanins the way Malbec can. What it loses, it loses permanently.
 
